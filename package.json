@@ -1,0 +1,24 @@
+{
+  "name": "temporal-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node lib/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grpc": "^1.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "grpc-tools": "^1.9.1",
+    "ts-node": "^7.0.1",
+    "ts-protoc-gen": "^0.13.0",
+    "tslint": "^5.11.0",
+    "tslint-microsoft-contrib": "^5.2.1",
+    "typescript": "^3.9.7"
+  }
+}

@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/nicolas/.nvm/versions/node/v10.17.0/bin/node /Users/nicolas/.nvm/versions/node/v10.17.0/bin/yarn
+
+PATH: 
+  /Users/nicolas/.rvm/gems/ruby-2.6.3/bin:/Users/nicolas/.rvm/gems/ruby-2.6.3@global/bin:/Users/nicolas/.rvm/rubies/ruby-2.6.3/bin:/Users/nicolas/Library/Python/2.7/bin:/Users/nicolas/.gvm/bin:/Users/nicolas/Downloads/google-cloud-sdk/bin:/Users/nicolas/.nvm/versions/node/v10.17.0/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/nicolas/.rvm/gems/ruby-2.6.3/bin:/Users/nicolas/.rvm/gems/ruby-2.6.3@global/bin:/Users/nicolas/.rvm/rubies/ruby-2.6.3/bin:/Users/nicolas/Library/Python/2.7/bin:/Users/nicolas/.gvm/bin:/Users/nicolas/Downloads/google-cloud-sdk/bin:/Users/nicolas/.nvm/versions/node/v10.17.0/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/nicolas/.rvm/bin:/Users/nicolas/.pulumi/bin:/Users/nicolas/.rvm/bin:/Users/nicolas/.pulumi/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nicolas/perso/temporal-typescript/package.json: Unexpected token } in JSON at position 478
+      at JSON.parse (<anonymous>)
+      at /Users/nicolas/.nvm/versions/node/v10.17.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/nicolas/.nvm/versions/node/v10.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/nicolas/.nvm/versions/node/v10.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "temporal-typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+  
+    },
+    "devDependencies": {
+      "grpc-tools": "^1.9.1",
+      "ts-protoc-gen": "^0.13.0",
+      "@types/node": "^10.11.4",
+      "ts-node": "^7.0.1",
+      "tslint": "^5.11.0",
+      "tslint-microsoft-contrib": "^5.2.1",
+      "typescript": "^3.1.1"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
