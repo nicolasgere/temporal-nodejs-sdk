@@ -2,4 +2,5 @@ node_modules
 .vscode
 dist
 docker
-api
+config
+docker-compose
